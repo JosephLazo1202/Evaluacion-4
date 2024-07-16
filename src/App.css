@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.light {
+  background-color: #f8f9fa;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.light {
+  background-color: #ffffff;
+}
+
+.container.dark {
+  background-color: #343a40;
+  color: #ffffff; 
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-color: #ccc;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  color: #ffffff;
+  border-color: #343a40;
+}
+
+.card {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+/* Estilos para el modal */
+.modal-content.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.modal-content.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
